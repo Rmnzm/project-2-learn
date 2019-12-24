@@ -1,0 +1,25 @@
+/* colors:
+#00CC00	- зеленый
+#3914AF	- синий
+#FFD300	- желтый
+№FF0000 - красный */
+body {
+  background: #00CC00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3914AF;
+  font-weight: bold;
+}
+
+.easy {
+  color: white;
+}
+
+.normal {
+  color: orange;
+}
+
+.hard {
+  color: red;
+}
