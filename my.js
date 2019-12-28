@@ -53,3 +53,15 @@ $(document).ready(function(){
     printArray();
   });
 });
+
+ $("#addRandom").on("click", function(){
+   array.push(Math.floor(Math.random()*100));
+   printArray();
+ });
+
+ $("#addValueButton").on("click", function(){
+   var value = $("#addValue").val();
+   if(value.length != 0){
+     array.push(value);
+   }
+ });
